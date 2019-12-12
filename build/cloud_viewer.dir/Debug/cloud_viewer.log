@@ -1,0 +1,15 @@
+﻿  cloud_viewer.cpp
+  Unknown compiler version - please run the configure tests and report the results
+C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/iostreams/positioning.hpp(96,1): warning C4996: 'std::fpos<_Mbstatet>::seekpos': warning STL4019: The member std::fpos::seekpos() is non-Standard, and is preserved only for compatibility with workarounds for old versions of Visual C++. It will be removed in a future release, and in this release always returns 0. Please use standards-conforming mechanisms to manipulate fpos, such as conversions to and from streamoff, or an integral type, instead. If you are receiving this message while compiling Boost.IOStreams, a fix has been submitted upstream to make Boost use standards-conforming mechanisms, as it does for other compilers. You can define _SILENCE_FPOS_SEEKPOS_DEPRECATION_WARNING to acknowledge that you have received this warning, or define _REMOVE_FPOS_SEEKPOS to remove std::fpos::seekpos entirely.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\iosfwd(73): message : see declaration of 'std::fpos<_Mbstatet>::seekpos'
+C:\Users\kgoni\Desktop\PCL tutorial\cloud_viewer.cpp(44,27): error C2664: 'void pcl::visualization::CloudViewer::showCloud(const boost::shared_ptr<const pcl::PointCloud<pcl::PointXYZ>> &,const std::string &)': cannot convert argument 1 from 'boost::shared_ptr<pcl::PointCloud<pcl::PointXY>>' to 'const boost::shared_ptr<const pcl::PointCloud<pcl::PointXYZRGB>> &'
+C:\Users\kgoni\Desktop\PCL tutorial\cloud_viewer.cpp(44,27): message : Reason: cannot convert from 'boost::shared_ptr<pcl::PointCloud<pcl::PointXY>>' to 'const boost::shared_ptr<const pcl::PointCloud<pcl::PointXYZRGB>>'
+C:\Users\kgoni\Desktop\PCL tutorial\cloud_viewer.cpp(44,22): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  Polar2Cartesian.cpp
+C:\Program Files\PCL 1.8.1\include\pcl-1.8\pcl/visualization/cloud_viewer.h(75,9): message : see declaration of 'pcl::visualization::CloudViewer::showCloud'
+C:\Program Files\PCL 1.8.1\include\pcl-1.8\pcl/visualization/cloud_viewer.h(75,9): message : Unknown compiler version - please run the configure tests and report the results
+C:\Users\kgoni\Desktop\PCL tutorial\build\Polar2Cartesian.h(14,22): error C3646: 'writeToFile': unknown override specifier
+C:\Users\kgoni\Desktop\PCL tutorial\build\Polar2Cartesian.h(14,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Polar2Cartesian.cpp(6,1): error C2612: trailing 'end of file' illegal in base/member initializer list
+  Generating Code...
+Polar2Cartesian.cpp(6,1): fatal error C1004: unexpected end-of-file found

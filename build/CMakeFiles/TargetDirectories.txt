@@ -1,0 +1,3 @@
+C:/Users/kgoni/Desktop/PCL tutorial/build/CMakeFiles/cloud_viewer.dir
+C:/Users/kgoni/Desktop/PCL tutorial/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/kgoni/Desktop/PCL tutorial/build/CMakeFiles/ZERO_CHECK.dir
